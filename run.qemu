@@ -1,0 +1,7 @@
+qemu-system-x86_64 \
+-m 256m \
+-machine q53 \
+-smp cpus=2 -cpu qemu64 \
+-hda alpine.qcow2 \
+-boot c \
+-nographic
